@@ -6,7 +6,11 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 8
   },
+  plugins: ["prettier"],
   rules: {
+    "prettier/prettier": "error"
+  }
+  // rules: {
       // enable additional rules
       // "indent": ["error", 2],
       // "linebreak-style": ["error", "unix"],
@@ -19,5 +23,5 @@ module.exports = {
 
       // disable rules from base configurations
       // "no-console": "off",
-  }
+  // }
 }
