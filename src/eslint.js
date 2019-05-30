@@ -3,6 +3,9 @@ module.exports = {
     'airbnb-base',
     'prettier',
   ],
+  parserOptions: {
+    ecmaVersion: 8
+  },
   rules: {
       // enable additional rules
       // "indent": ["error", 2],
