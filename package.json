@@ -1,0 +1,30 @@
+{
+  "name": "js-style",
+  "version": "1.0.0",
+  "description": "A repo to hold eslint/prettier config for our projects",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirage-id/js-style.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mirage-id/js-style/issues"
+  },
+  "homepage": "https://github.com/mirage-id/js-style#readme",
+  "peerDependencies": {
+    "prettier": "^1.17.x",
+    "prettier-eslint": "^8.8.x",
+    "eslint": "^5.16.x"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3"
+  }
+}
