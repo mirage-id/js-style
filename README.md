@@ -91,6 +91,14 @@ indent_size = 2
 trim_trailing_whitespace = false
 ```
 
+Add the following scripts to your package.json:
+```json
+"lint": "eslint . --env node",
+"lint:fix": "eslint . --fix --env node",
+"format": "prettier *.js ./**/*.js",
+"format:fix": "prettier *.js ./**/*.js --write"
+```
+
 ## Setting up your IDE
 
 ### Sublime Text

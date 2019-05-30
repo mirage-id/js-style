@@ -8,7 +8,8 @@ module.exports = {
   },
   plugins: ["prettier"],
   rules: {
-    "prettier/prettier": "error"
+    "prettier/prettier": "error",
+    "no-console": "off",
   }
   // rules: {
       // enable additional rules
@@ -20,8 +21,5 @@ module.exports = {
       // override default options for rules from base configurations
       // "comma-dangle": ["error", "always"],
       // "no-cond-assign": ["error", "always"],
-
-      // disable rules from base configurations
-      // "no-console": "off",
   // }
 }
