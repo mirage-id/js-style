@@ -54,7 +54,7 @@ npm install --save-dev github:mirage-id/js-style
 npm i --save-dev prettier prettier-eslint eslint
 ```
 
-create a file in the root of the directory named `.prettierrc.js` with the following contents:
+create a file in the directory containing the `package.json` file named `.prettierrc.js` with the following contents:
 
 ```js
 const config = require('js-style').prettier;
@@ -62,7 +62,7 @@ const config = require('js-style').prettier;
 module.exports = config;
 ```
 
-create a file in the root of the directory named `.eslintrc.js` with the following contents:
+create a file in the directory containing the `package.json` file named `.eslintrc.js` with the following contents:
 
 ```js
 const config = require('js-style').eslint;
