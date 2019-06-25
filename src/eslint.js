@@ -15,5 +15,9 @@ module.exports = {
       "warn",
       { "argsIgnorePattern": "^_" }
     ],
+    "import/no-unresolved": [
+      "error", 
+      { ignore: ['electron'] },
+    ]
   },
 }
