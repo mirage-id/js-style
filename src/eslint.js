@@ -11,5 +11,9 @@ module.exports = {
     "prettier/prettier": "error",
     "no-console": "off",
     "no-underscore-dangle": "off",
-  }
+    "no-unused-vars": [
+      "warn",
+      { "argsIgnorePattern": "^_" }
+    ],
+  },
 }
