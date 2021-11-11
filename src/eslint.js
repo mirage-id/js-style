@@ -8,6 +8,7 @@ module.exports = {
   },
   rules: {
     "arrow-parens": "off",
+    "operator-linebreak": "off",
     "no-console": "off",
     "no-underscore-dangle": "off",
     "class-methods-use-this": "off",
