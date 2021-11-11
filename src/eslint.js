@@ -1,14 +1,14 @@
 module.exports = {
   extends: [
     'airbnb-base',
-    'prettier',
+    "plugin:react-hooks/recommended"
   ],
   parserOptions: {
     ecmaVersion: 8
   },
-  plugins: ["prettier"],
   rules: {
-    "prettier/prettier": "error",
+    "arrow-parens": "off",
+    "operator-linebreak": "off",
     "no-console": "off",
     "no-underscore-dangle": "off",
     "class-methods-use-this": "off",
