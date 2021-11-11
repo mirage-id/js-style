@@ -7,6 +7,7 @@ module.exports = {
     ecmaVersion: 8
   },
   rules: {
+    "arrow-parens": "off",
     "no-console": "off",
     "no-underscore-dangle": "off",
     "class-methods-use-this": "off",
