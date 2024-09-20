@@ -17,15 +17,15 @@
   },
   "homepage": "https://github.com/mirage-id/js-style#readme",
   "peerDependencies": {
-    "eslint": "^5.16.x",
-    "prettier": "^1.17.x",
-    "prettier-eslint": "^9.0.x"
+    "eslint": "^8.57.x",
+    "prettier": "^3.3.3",
+    "prettier-eslint": "^16.3.0"
   },
   "dependencies": {
-    "eslint": "^5.16.x",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-import": "^2.17.3",
-    "eslint-plugin-prettier": "^3.1.0"
+    "eslint": "^8.57.x",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "jiti": "^1.21.6"
   }
 }
