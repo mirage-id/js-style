@@ -16,7 +16,6 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "import", "prettier"],
   extends: [
-    js.configs.recommended,
     "plugin:@typescript-eslint/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
@@ -51,8 +50,7 @@ module.exports = {
     // configs prettier
     "prettier/prettier": "error",
     // another configs
-    "no-console": "off",
-    "no-underscore-dangle": "off",
+    ...js.configs.recommended.rules,
     "class-methods-use-this": "off",
     "@typescript-eslint/no-unused-vars": ["warn", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-explicit-any": "off",
